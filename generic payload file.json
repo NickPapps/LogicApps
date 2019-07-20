@@ -1,0 +1,51 @@
+{
+    "properties": {
+        "body": {
+            "properties": {
+                "datasets": {
+                    "items": {
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "properties": {
+                                "properties": {},
+                                "type": "object"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "properties"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "linkedServices": {
+                    "items": {
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "properties": {
+                                "properties": {},
+                                "type": "object"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "properties"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "myMessage": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}
